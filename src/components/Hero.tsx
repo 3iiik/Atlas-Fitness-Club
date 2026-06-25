@@ -40,7 +40,7 @@ export default function Hero() {
             {t('hero.cta')}
           </a>
           <a
-            href="#contact"
+            href="#membership"
             className="inline-flex h-14 items-center justify-center rounded-xl border border-white/20 px-8 text-sm font-bold uppercase tracking-wider text-white transition-all hover:border-orange-500 hover:text-orange-400"
           >
             {t('hero.ctaSecondary')}

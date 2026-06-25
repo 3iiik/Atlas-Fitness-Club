@@ -58,13 +58,13 @@ const stats = [
 ] as const
 
 export default function Statistics() {
-  const { t } = useLanguage()
+  const { t, tm } = useLanguage()
 
   const counts: Record<string, number> = {
-    memberCount: Number(t('statistics.memberCount')),
-    trainerCount: Number(t('statistics.trainerCount')),
-    classCount: Number(t('statistics.classCount')),
-    awardCount: Number(t('statistics.awardCount')),
+    memberCount: Number(tm('statistics.memberCount')) || 0,
+    trainerCount: Number(tm('statistics.trainerCount')) || 0,
+    classCount: Number(tm('statistics.classCount')) || 0,
+    awardCount: Number(tm('statistics.awardCount')) || 0,
   }
 
   return (
