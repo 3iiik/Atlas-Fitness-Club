@@ -5,7 +5,7 @@ import { useLanguage } from '@/context/LanguageContext'
 const plans = ['starter', 'premium', 'elite'] as const
 
 export default function Membership() {
-  const { t } = useLanguage()
+  const { t, tm } = useLanguage()
 
   return (
     <section id="membership" className="bg-[#0a0a0a] py-24 sm:py-32">
@@ -48,7 +48,7 @@ export default function Membership() {
                 </div>
 
                 <ul className="mb-8 flex flex-col gap-3">
-                  {(t(`membership.${plan}.features`) as unknown as string[]).map(
+                  {(tm(`membership.${plan}.features`) as string[] || []).map(
                     (feature: string, i: number) => (
                       <li key={i} className="flex items-start gap-3 text-sm text-white/70">
                         <svg

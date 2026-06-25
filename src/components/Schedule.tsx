@@ -2,6 +2,7 @@
 
 import { useLanguage } from '@/context/LanguageContext'
 
+
 const scheduleData: Record<string, string[]> = {
   mon: ['musculation', '', 'yoga', 'hiit', 'boxe', ''],
   tue: ['', 'yoga', 'musculation', '', 'spinning', 'pilates'],
@@ -32,7 +33,7 @@ export default function Schedule() {
             <thead>
               <tr className="border-b border-white/10 bg-white/5">
                 <th className="px-4 py-3 font-bold text-white/40">{''}</th>
-                {(t('schedule.days') as unknown as string[]).map((day: string, i: number) => (
+                {(tm('schedule.days') as string[] || []).map((day: string, i: number) => (
                   <th key={i} className="px-4 py-3 text-center font-bold text-white">
                     {day}
                   </th>
@@ -40,7 +41,7 @@ export default function Schedule() {
               </tr>
             </thead>
             <tbody>
-              {(t('schedule.timeSlots') as unknown as string[]).map(
+              {(tm('schedule.timeSlots') as string[] || []).map(
                 (slot: string, rowIdx: number) => (
                   <tr
                     key={rowIdx}
