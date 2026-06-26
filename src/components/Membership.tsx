@@ -66,7 +66,9 @@ export default function Membership() {
                 </ul>
 
                 <a
-                  href="#contact"
+                  href="https://instagram.com/3iik.dev"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`mt-auto flex h-12 items-center justify-center rounded-xl text-sm font-bold uppercase tracking-wider transition-all ${
                     isPremium
                       ? 'bg-orange-500 text-black hover:bg-orange-400'
