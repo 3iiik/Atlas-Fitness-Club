@@ -10,8 +10,8 @@
   "hero": {
     "title": "PUSH BEYOND YOUR LIMITS",
     "subtitle": "Join Atlas Fitness Club and transform your body with our state-of-the-art equipment and professional coaches",
-    "cta": "Start now",
-    "ctaSecondary": "View plans"
+    "cta": "WhatsApp",
+    "ctaSecondary": "WhatsApp"
   },
   "membership": {
     "title": "Our Plans",
@@ -26,7 +26,7 @@
         "Locker rooms & showers",
         "1 coaching session"
       ],
-      "cta": "Choose Starter"
+      "cta": "WhatsApp"
     },
     "premium": {
       "name": "Premium",
@@ -40,7 +40,7 @@
         "Sauna & hammam access",
         "Custom program"
       ],
-      "cta": "Choose Premium",
+      "cta": "WhatsApp",
       "popular": "Popular"
     },
     "elite": {
@@ -56,7 +56,7 @@
         "Reserved parking",
         "Free guest pass every month"
       ],
-      "cta": "Choose Elite"
+      "cta": "WhatsApp"
     }
   },
   "trainers": {
@@ -131,8 +131,8 @@
   "contact": {
     "title": "Contact Us",
     "subtitle": "We're here for you!",
-    "messenger": "Instagram",
-    "messengerText": "Send us a message on Instagram",
+    "messenger": "WhatsApp",
+    "messengerText": "Get in touch on WhatsApp",
     "email": "Email",
     "emailText": "3iikStudio@proton.me",
     "location": "Algiers, Algeria",

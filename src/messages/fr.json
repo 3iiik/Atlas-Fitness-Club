@@ -10,8 +10,8 @@
   "hero": {
     "title": "DÉPASSEZ VOS LIMITES",
     "subtitle": "Rejoignez Atlas Fitness Club et transformez votre corps avec nos équipements de pointe et nos coachs professionnels",
-    "cta": "Commencer maintenant",
-    "ctaSecondary": "Nos abonnements"
+    "cta": "Contacter sur WhatsApp",
+    "ctaSecondary": "Contacter sur WhatsApp"
   },
   "membership": {
     "title": "Nos Abonnements",
@@ -26,7 +26,7 @@
         "Vestiaires & douches",
         "1 séance coaching"
       ],
-      "cta": "Choisir Starter"
+      "cta": "Contacter sur WhatsApp"
     },
     "premium": {
       "name": "Premium",
@@ -40,7 +40,7 @@
         "Accès sauna & hammam",
         "Programme personnalisé"
       ],
-      "cta": "Choisir Premium",
+      "cta": "Contacter sur WhatsApp",
       "popular": "Populaire"
     },
     "elite": {
@@ -56,7 +56,7 @@
         "Parking réservé",
         "Invité offert chaque mois"
       ],
-      "cta": "Choisir Elite"
+      "cta": "Contacter sur WhatsApp"
     }
   },
   "trainers": {
@@ -131,8 +131,8 @@
   "contact": {
     "title": "Contactez-nous",
     "subtitle": "On est là pour vous !",
-    "messenger": "Instagram",
-    "messengerText": "Envoyez-nous un message sur Instagram",
+    "messenger": "WhatsApp",
+    "messengerText": "Contactez-nous sur WhatsApp",
     "email": "Email",
     "emailText": "3iikStudio@proton.me",
     "location": "Alger, Algérie",
