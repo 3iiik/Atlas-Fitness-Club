@@ -65,17 +65,17 @@ export default function Membership() {
                   )}
                 </ul>
 
-                <a
-                  href="#"
+                <button
+                  type="button"
                   onClick={(e) => e.preventDefault()}
-                  className={`mt-auto flex h-12 items-center justify-center rounded-xl text-sm font-bold uppercase tracking-wider transition-all ${
+                  className={`mt-auto flex h-12 items-center justify-center rounded-xl text-sm font-bold uppercase tracking-wider transition-all cursor-default ${
                     isPremium
                       ? 'bg-orange-500 text-black hover:bg-orange-400'
                       : 'border border-white/20 text-white hover:border-orange-500 hover:text-orange-400'
                   }`}
                 >
                   {t(`membership.${plan}.cta`)}
-                </a>
+                </button>
               </div>
             )
           })}

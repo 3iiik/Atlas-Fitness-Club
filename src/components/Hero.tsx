@@ -33,20 +33,20 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row">
-          <a
-            href="#"
+          <button
+            type="button"
             onClick={(e) => e.preventDefault()}
-            className="inline-flex h-14 items-center justify-center rounded-xl bg-orange-500 px-8 text-sm font-bold uppercase tracking-wider text-black transition-all hover:bg-orange-400 hover:shadow-lg hover:shadow-orange-500/25"
+            className="inline-flex h-14 items-center justify-center rounded-xl bg-orange-500 px-8 text-sm font-bold uppercase tracking-wider text-black transition-all hover:bg-orange-400 hover:shadow-lg hover:shadow-orange-500/25 cursor-default"
           >
             {t('hero.cta')}
-          </a>
-          <a
-            href="#"
+          </button>
+          <button
+            type="button"
             onClick={(e) => e.preventDefault()}
-            className="inline-flex h-14 items-center justify-center rounded-xl border border-white/20 px-8 text-sm font-bold uppercase tracking-wider text-white transition-all hover:border-orange-500 hover:text-orange-400"
+            className="inline-flex h-14 items-center justify-center rounded-xl border border-white/20 px-8 text-sm font-bold uppercase tracking-wider text-white transition-all hover:border-orange-500 hover:text-orange-400 cursor-default"
           >
             {t('hero.ctaSecondary')}
-          </a>
+          </button>
         </div>
       </div>
 
